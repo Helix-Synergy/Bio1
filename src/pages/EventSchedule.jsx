@@ -10,7 +10,7 @@ const Schedule = () => {
       <section className="container w-[100%] mx-auto flex flex-col items-center justify-center">
         <div className={`${banner_style} schedule-banner `}>
           <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
-            Biocon - 2025
+            Biocon - 2026
           </h1>
         </div>
         <EventSchedule

@@ -23,8 +23,8 @@ import { banner_style } from "../Styles/styles";
 const data = {
    event: {
      title: "About Event",
-     date: "25–27 Nov 2025",
-     location: "Valencia, Spain",
+     date: "25–26 June 2026",
+     location: "Netherlands",
      organizer: "Helix Conferences",
      description: [
        <>
@@ -169,8 +169,8 @@ const data = {
 
    ],
    dates: {
-     eventDate: "25th November",
-     venue: "Novotel Valencia, Spain",
+     eventDate: "25-26 June",
+     venue: "Netherlands",
      registrationDeadline: "20th November",
    },
 };

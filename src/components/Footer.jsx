@@ -77,10 +77,10 @@ const Footer = () => {
           Get In Touch
         </h1>
         <div className="flex flex-col gap-4 text-slate-300">
-          <div className="flex flex-row gap-2 items-center justify-center md:justify-start">
+          {/* <div className="flex flex-row gap-2 items-center justify-center md:justify-start">
             <Phone size="18" />
             <p>+1757 656 7778</p>
-          </div>
+          </div> */}
           <div className="flex flex-row gap-2 items-center justify-center md:justify-start">
             <WhatsAppIcon className="h-5 w-5 fill-slate-300"/>
             <p>+1715 990 5583</p>

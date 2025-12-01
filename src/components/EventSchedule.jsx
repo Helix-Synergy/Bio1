@@ -52,7 +52,7 @@ const EventSchedule = ({ height, name, link }) => {
 
       {/* Day selection buttons */}
       <div className="flex flex-wrap justify-center gap-4 my-6 bg-one/20 p-4 rounded-2xl shadow-lg backdrop-blur-sm">
-        {[1, 2, 3].map((day) => (
+        {[1, 2].map((day) => (
           <button
             key={day}
             onClick={() => setSelectedDay(day)}
@@ -67,10 +67,10 @@ const EventSchedule = ({ height, name, link }) => {
             </h1>
             <p className="text-base md:text-lg font-semibold drop-shadow-sm">
               {day === 1
-                ? "25th Nov 2025"
+                ? "25th June 2026"
                 : day === 2
-                ? "26th Nov 2025"
-                : "27th Nov 2025"}
+                ? "26th June 2026"
+                :""}
             </p>
           </button>
         ))}

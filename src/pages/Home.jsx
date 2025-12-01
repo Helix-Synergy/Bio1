@@ -28,14 +28,14 @@ const Home = () => {
         <div className="relative z-2 flex flex-col items-start px-1 md:px-8 mt-4 justify-center h-full text-white text-2xl md:text-3xl font-bold">
           <div className="flex flex-row items-end gap-4">
             <h1 className="text-one text-shadow-blue font-bold text-5xl md:text-6xl">
-              Nov
+              June
             </h1>
             <div className="flex flex-col justify-center items-start leading-tight">
               <p className="text-base md:text-lg font-bold">
-                25 - 27 | 2025
+                25 - 26 | 2026
               </p>
               <p className="text-base font-extrabold md:text-lg gap-2 flex flex-row font-normal">
-                VALENCIA | SPAIN
+                Netherlands
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Home = () => {
             WORLD BIOTECHNOLOGY SUMMIT
           </h1>
           <p className="text-2xl md:text-5xl text-slate-200">
-            Biocon - 2025
+            Biocon - 2026
           </p>
           <div className="float-end mt-4">
             <FlipClock />

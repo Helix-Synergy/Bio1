@@ -31,7 +31,7 @@ const Venue = () => {
           {/* Highlighted Venue List */}
           <h1 className="">Proposed Conference Venue</h1>
           <h1 className="text-2xl md:text-2xl font-bold mb-8 text-left text-one">
-            Novotel Valencia Lavant
+          Netherlands
           </h1>
           <ul className="mt-4 space-y-2 ">
             {venueList.map((item) => (

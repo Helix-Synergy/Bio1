@@ -1,0 +1,287 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tw-shadow-color: #e1af00; /* same as your 'one' color in tailwind.config.js */
+}
+
+
+.home {
+  background-image: url("https://img.freepik.com/premium-photo/abstract-science-background-with-dna-strands_476363-2066.jpg?uid=R186010399&ga=GA1.1.925859672.1741947598&semt=ais_hybrid&w=740");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.container {
+  overflow-x: hidden;
+}
+.marquee {
+  --gap: 1rem;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  /* user-select: none; */
+  gap: var(--gap);
+  border: 2px dashed lightgray;
+}
+
+.marquee__content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: var(--gap);
+  min-width: 100%;
+}
+
+.marquee__content img {
+  max-width: 2rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.marquee__content > * {
+  flex: 0 0 auto;
+  color: white;
+  background: #e8daef;
+  margin: 2px;
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.marquee__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/partnersBg.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* gap: 12px; */
+}
+
+.banner {
+  background-image: url('./assets/Page Banners/bg.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('./assets/partnersBg.svg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+/* Hide scrollbar for Webkit browsers */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox and Edge */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffda5494;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+}
+
+.hover-underline-animation.left::after {
+  transform-origin: bottom right;
+}
+
+.hover-underline-animation.left:hover::after {
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation.center::after {
+  transform-origin: bottom center;
+}
+
+.hover-underline-animation.center:hover::after {
+  transform-origin: bottom center;
+}
+
+.hover-underline-animation.right::after {
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation.right:hover::after {
+  transform-origin: bottom right;
+}
+
+/* About Page Banner */
+.about-banner {
+  background-image: url("./assets/Page Banners/about.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 90%;
+}
+
+/* Contact Page Banner */
+.contact-banner {
+  background-image: url("./assets/Page Banners/contact.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 90%;
+}
+
+/* Event Partners Page Banner */
+.event-partners-banner {
+  background-image: url("./assets/Page Banners/event_partners.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 90%;
+}
+
+/* Executive Panel Page Banner */
+.executive-panel-banner {
+  background-image: url("./assets/Page Banners/executive.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 90%;
+}
+
+/* Orators Page Banner */
+.orators-banner {
+  background-image: url("./assets/Page Banners/orators.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 90%;
+}
+
+/* Register Page Banner */
+.register-banner {
+  background-image: url("./assets/Page Banners/register.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 90%;
+}
+
+/* Schedule Page Banner */
+.schedule-banner {
+  background-image: url("./assets/Page Banners/schedule.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 90%;
+}
+
+/* Tracks Page Banner */
+.abstract-banner {
+  background-image: url("./assets/Page Banners/tracks.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.brochure-banner {
+  background-image: url('./assets/Page Banners/Brochure.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 90%;
+}
+
+.venue-banner {
+  background-image: url("./assets/Page\ Banners/venue.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 90%;
+}
+
+/* .executive-panel-banner {
+  background-image: url('./assets/Page Banners/executive.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 90%;
+  margin-left: 5%;
+} */
+

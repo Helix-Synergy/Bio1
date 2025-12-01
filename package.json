@@ -2,6 +2,8 @@
   "name": "mediclave-frontend",
   "version": "0.1.0",
   "private": true,
+    "homepage": "https://biocon.helixconferences.com",
+
   "dependencies": {
     "@leenguyen/react-flip-clock-countdown": "^1.6.1",
     "@mui/material": "^7.1.0",

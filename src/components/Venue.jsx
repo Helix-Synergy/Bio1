@@ -4,13 +4,13 @@ import ImageGalleryCard from "./ui/ImageGalleryCard";
 import { Link } from "react-router-dom";
 
 const venueList = [
-  { id: 1, name: "City of Arts and Sciences" },
-  { id: 2, name: "Valencia Cathedral" },
-  { id: 3, name: "La Lonja de la Seda (UNESCO)" },
-  { id: 4, name: "El Carmen district" },
-  { id: 5, name: "Oceanogràfic" },
-  { id: 6, name: "L’Umbracle & Mya nightlife" },
-  { id: 7, name: "Bioparc Valencia" },
+  { id: 1, name: "Bloemenmarkt" },
+  { id: 2, name: "Vondelpark" },
+  { id: 3, name: "canal cruise" },
+  { id: 4, name: "Anne Frank House" },
+// { id: 5, name: "Oceanogràfic" },
+  { id: 5, name: "Van Gogh Museum " },
+  { id: 6, name: "Rijksmuseum" },
   // { id: 8, name: "Turia Gardens (Jardín del Turia)" },
   // { id: 9, name: "Plaza de la Virgen" },
   // { id: 10, name: "Malvarrosa Beach" },

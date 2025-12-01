@@ -24,7 +24,7 @@ const data = {
    event: {
      title: "About Event",
      date: "25–26 June 2026",
-     location: "Netherlands",
+     location: "Amsterdam | Netherlands",
      organizer: "Helix Conferences",
      description: [
        <>
@@ -170,7 +170,7 @@ const data = {
    ],
    dates: {
      eventDate: "25-26 June",
-     venue: "Netherlands",
+     venue: "Amsterdam | Netherlands",
      registrationDeadline: "20th November",
    },
 };

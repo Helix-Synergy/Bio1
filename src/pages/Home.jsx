@@ -35,7 +35,7 @@ const Home = () => {
                 25 - 26 | 2026
               </p>
               <p className="text-base font-extrabold md:text-lg gap-2 flex flex-row font-normal">
-                Netherlands
+               Amsterdam | Netherlands
               </p>
             </div>
           </div>

@@ -1,32 +1,32 @@
 export const visit_places = [
   {
-    name: "Serranos Towers",
+    name: "Dam Square",
     image:
-      "https://images.pexels.com/photos/24906254/pexels-photo-24906254/free-photo-of-medieval-serranos-towers-in-valencia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    km: "2.4",
+      "https://tse1.mm.bing.net/th/id/OIP.F79g5xouWSwfqhinPOTVhQHaE7?pid=Api&P=0&h=180",
+    km: "0.8",
   },
   {
-    name: "Valencia Cathedral",
+    name: "Anne Frank House",
     image:
-      "https://images.pexels.com/photos/21287065/pexels-photo-21287065/free-photo-of-basilica-de-la-mare-deu-dels-desemparats-and-cathedral-in-valencia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    km: "3.6",
+      "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/550000/550930-anne-frank-house.jpg",
+    km: "0.5",
   },
   {
-    name: "Gulliver park",
+    name: "The Royal Palace of Amsterdam",
     image:
-      "https://images.pexels.com/photos/31978874/pexels-photo-31978874/free-photo-of-tranquil-park-scene-with-fountain-and-trees.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    km: "4.7",
+      "https://wallpapers.com/images/hd/amsterdam-royal-palace-photography-e10zrb1pad6c7ld5.jpg",
+    km: "0.9",
   },
   {
-    name: "Oceanogràfic València",
+    name: "Albert Cuyp Market",
     image:
-      "https://images.pexels.com/photos/256150/pexels-photo-256150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    km: "6",
+    " https://c8.alamy.com/comp/BFA6WT/amsterdam-albert-cuypstraat-cuyp-market-netherlands-BFA6WT.jpg",
+    km: "2.1",
   },
   {
-    name: "City of Arts and Sciences",
+    name: "NEMO Science Museum",
     image:
-      "https://images.pexels.com/photos/6237137/pexels-photo-6237137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    km: "6.5",
+      "https://media.cntraveler.com/photos/540a297981424d9d655be1e5/master/pass/nemo-science-museum-amsterdam.jpg",
+    km: "1.8",
   },
 ];

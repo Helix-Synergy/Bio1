@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, Phone, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/Logo/WhatsApp Image 2025-12-01 at 13.27.44_d8d09f56.jpg";
 import "../Styles/GoogleTranslate.css";
 
 const Navbar = () => {

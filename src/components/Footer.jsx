@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png"
+import logo from "../assets/Logo/WhatsApp Image 2025-12-01 at 13.27.44_d8d09f56.jpg"
 import {Link} from "react-router-dom"
 import { socialLinks, WhatsAppIcon } from "../utils/Quick Links/Links";
 import { ChevronRight, Mail, MapPin, Phone } from "lucide-react";

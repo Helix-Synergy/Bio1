@@ -18,11 +18,12 @@ const Venue = () => {
           Proposed Conference Venue
         </h2>
         <h1 className="text-xl md:text-2xl gap-2 flex flex-row items-center justify-center">
-          <MapPin /> Novotel Valencia Lavant
+          <MapPin /> Crowne Plaza Amsterdam
+
         </h1>
         <p className="text-sm md:text-[15px] flex flex-row items-center font-normal justify-center">
-          <PlaneIcon className="mr-1" />
-          Valencia International Airport (Manises), Valencia, Spain
+          {/* <PlaneIcon className="mr-1" /> */}
+       George Gershwinlaan 101, Zuideramstel, 1082 MT Amsterdam, Netherlands
         </p>
         <h3 className="text-sm md:text-[18px] gap-2 font-normal flex flex-row items-center justify-center">
           <Star size={18} /> 4.5 rating
@@ -32,7 +33,7 @@ const Venue = () => {
       <div className="flex flex-col lg:flex-row items-center my-6 gap-6">
         <div className="lg:w-[40vw]">
           <img
-            src="https://static-resources-elementor.mirai.com/wp-content/uploads/sites/1396/restaurante-home-rooftop.jpg"
+            src="https://media-cdn.holidaycheck.com/w_1280,h_720,c_fit,q_80/ugc/images/caaa0d5f-82e2-35ec-9dc9-04183b19570f"
             alt="Venue"
             loading="lazy"
             className="w-full sm:w-34 md:w-full lg:w-full h-[30vh] md:h-[40vh] lg:h-[50vh] object-cover rounded-xl"

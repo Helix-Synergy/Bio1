@@ -92,7 +92,9 @@ const Footer = () => {
           <div className="flex flex-row gap-2 items-start md:justify-start px-4 md:px-0">
             <MapPin size="32" />
             <p>
-              Helix Conferences LLC, 45573 Shepard Drive, Suit#101,
+             
+              Helix Conferences LLC, <br></br>
+            45573 Shepard Drive, Suit#101,
               <br/> Sterling, Virginia-20164, USA
             </p>
           </div>

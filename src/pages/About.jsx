@@ -78,7 +78,7 @@ const data = {
      "Helix Conferences is committed to delivering an experience that combines scientific excellence with practical applications, ensuring attendees leave with actionable knowledge to advance practices.",
    ],
    aboutHelix: [
-     "Helix Conferences has a longstanding reputation as a premier global conference organizer specializing in healthcare and scientific events. With years of expertise in curating impactful conferences, Helix ensures that every detail of the 2025 Oral Medicine Conference is crafted to deliver maximum value to attendees.",
+     "Helix Conferences has a longstanding reputation as a premier global conference organizer specializing in healthcare and scientific events. With years of expertise in curating impactful conferences, Helix ensures that every detail of the 2026 Oral Medicine Conference is crafted to deliver maximum value to attendees.",
    ],
    whoShouldAttend: [
      "Oral medicine specialists and dentists",
@@ -88,7 +88,7 @@ const data = {
      "Students and trainees in dentistry and related fields",
    ],
    join: [
-     "The 2025 Public Health Conference by Helix Conferences is more than just an event, it's a global movement toward better public health through science, technology, and collaboration. Join thousands of professionals from around the world as they share knowledge, advance research, and inspire innovation in public health.",
+     "The 2026 Public Health Conference by Helix Conferences is more than just an event, it's a global movement toward better public health through science, technology, and collaboration. Join thousands of professionals from around the world as they share knowledge, advance research, and inspire innovation in public health.",
    ],
    themes: [
      {
@@ -171,7 +171,7 @@ const data = {
    dates: {
      eventDate: "25-26 June",
      venue: "Amsterdam | Netherlands",
-     registrationDeadline: "20th November",
+     registrationDeadline: "19th June",
    },
 };
 
@@ -185,7 +185,7 @@ const AboutPublicHealth = () => {
        </div>
 
        <h1 className="text-4xl mt-2 font-bold text-one">
-         World Biotechnology Summit
+      International Conference on Applied Lifesciences
        </h1>
        <p className="text-center text-gray-600 text-3xl mb-6">
          <strong>

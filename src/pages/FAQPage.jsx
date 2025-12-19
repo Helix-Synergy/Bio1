@@ -9,16 +9,16 @@ const faqLinks = {
 
 export const faqData = [
   {
-    question: "What is BIOCON 2025?",
+    question: "What is BIOCON 2026?",
     answer:
-      "BIOCON 2025, officially known as the “World Biotechnology Summit” (BIOCON-2025), is a premier International conference organized by Helix Conferences. The event aims to bring together Biotechnology Professionals, Researchers, and Industry leaders to discuss and explore Advancements & Innovations in Biotechnology.",
+      "BIOCON 2026, officially known as the “International Conference on Applied Lifesciences” (BIOCON-2026), is a premier International conference organized by Helix Conferences. The event aims to bring together Biotechnology Professionals, Researchers, and Industry leaders to discuss and explore Advancements & Innovations in Biotechnology.",
   },
   {
-    question: "When and Where will the BIOCON 2025 take place?",
-    answer: "The conference will be held in Valencia, Spain from November 25–27, 2025.",
+    question: "When and Where will the BIOCON 2026 take place?",
+    answer: "The conference will be held in Amsterdam, Netherlands from June 25–26, 2026.",
   },
   {
-    question: "What are the highlights of BIOCON 2025?",
+    question: "What are the highlights of BIOCON 2026?",
     answer:
       "Networking opportunities with Industry leaders and Biotechnology Professionals. Interactive Workshops and Sessions. Exhibitions showcasing Innovations, Products, and Services.",
   },
@@ -71,7 +71,7 @@ export const faqData = [
   {
     question: "What about my travel?",
     answer:
-      "We can assist with affordable flight booking options for your trip to Spain.",
+      "We can assist with affordable flight booking options for your trip to Netherlands.",
   },
   {
     question: "Are Travel, Hotel fees, and additional services covered by the event organizers?",
@@ -94,7 +94,7 @@ export const faqData = [
       "Presentation slots typically range from 15 to 25 minutes. Specific times will be assigned once your abstract is accepted.",
   },
   {
-    question: "Who will be attending the BIOCON 2025?",
+    question: "Who will be attending the BIOCON 2026?",
     answer:
       "This event is expected to attract a diverse group of professionals from the Global Biotechnology community.",
   },

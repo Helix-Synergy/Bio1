@@ -8,7 +8,7 @@ const links = [
     id: 'mobile',
     icon: Phone,
     label: 'Call Us',
-    path: 'tel:+17576567778'
+    path: 'tel:+13052398055'
   },
   {
     id: 'brochure-download',
@@ -32,7 +32,7 @@ const links = [
     id: 'whatsapp',
     icon: WhatsAppIcon,
     label: 'WhatsApp',
-    link: 'https://api.whatsapp.com/send/?phone=17159905583&text=Hello&type=phone_number&app_absent=0'
+    link: 'https://api.whatsapp.com/send/?phone=13052398055&text=Hello&type=phone_number&app_absent=0'
   },
   {
     id: 'faq',

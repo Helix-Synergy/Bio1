@@ -41,7 +41,7 @@ const Home = () => {
           </div>
 
           <h1 className="text-3xl md:text-6xl my-4 w-full md:w-[90vw]">
-            WORLD BIOTECHNOLOGY SUMMIT
+          International Conference on Applied Lifesciences
           </h1>
           <p className="text-2xl md:text-5xl text-slate-200">
             Biocon - 2026

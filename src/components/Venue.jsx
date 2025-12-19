@@ -42,7 +42,7 @@ const Venue = () => {
                 <ArrowRightCircle size={16} className="text-one" />
                 {item.name}
               </li>
-            ))}
+            ))} 
           </ul>
         </div>
 

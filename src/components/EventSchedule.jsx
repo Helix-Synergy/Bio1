@@ -86,7 +86,7 @@ const EventSchedule = ({ height, name, link }) => {
         )}
       </div>
 
-      {link &&
+      {/* {link &&
         (name === "Download" ? (
           <a
             href={link}
@@ -96,12 +96,12 @@ const EventSchedule = ({ height, name, link }) => {
             {name}
           </a>
         ) : (
-          <Link to={link}>
+          <Link to={link}> */}
             <button className="bg-one text-white px-10 md:px-10 py-2 rounded-full mt-10 text-sm md:text-base">
-              {name}
+              {/* {name} */}Download
             </button>
-          </Link>
-        ))}
+          {/* </Link> */}
+        {/* ))} */}
     </div>
   );
 };

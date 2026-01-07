@@ -15,79 +15,123 @@ import nanomedicine from "../assets/tracks/nano_medicine.jpg";
 import nanobiotechnology from "../assets/tracks/nano_biotechnology.jpg";
 import biochemistry from "../assets/tracks/biochemistry.jpg";
 import plant_biotechnology from "../assets/tracks/synthetics_biology.jpg";
+import {Link} from "react-router-dom"
 
+
+const extractText = (node) => {
+  if (typeof node === "string") return node;
+  if (typeof node === "number") return node.toString();
+  if (Array.isArray(node)) return node.map(extractText).join(" ");
+  if (React.isValidElement(node)) {
+    return extractText(node.props.children);
+  }
+  return "";
+};
 
 
 const tracks = [
   {
-    image: animal_biotechnology,
-    title: "Animal Biotechnology",
-    subtitle: "Revolutionizing Veterinary Science with Genetic Innovation",
-    description:
-      "Animal Biotechnology leverages advanced Genetic Engineering techniques to enhance Animal Health, Productivity, and Disease Resistance. With tools like CRISPR and TALENs, scientists create Transgenic Animals producing vital Therapeutic Proteins. This innovation transforms Veterinary Medicine, improves global Livestock Management, and promotes Sustainable Food Production in the Biotechnology and Agriculture industries.",
-  },
+  image: animal_biotechnology,
+  title: "Animal Biotechnology",
+  subtitle: "Revolutionizing Veterinary Science with Genetic Innovation",
+  description: 
+ <>
+  
+      <Link to="https://helixconferences.com/buy-a-ticket" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300">Animal Biotechnology</Link> leverages advanced Genetic Engineering techniques to enhance Animal Health, Productivity, and Disease Resistance. With tools like CRISPR and TALENs, scientists create Transgenic Animals producing vital Therapeutic Proteins.This innovation transforms Veterinary Medicine, improves global LivestockManagement, and promotes Sustainable Food Production in the Biotechnology and Agriculture industries.
+</>
+
+},
   {
     image: industrial_biotechnology,
     title: "Industrial Biotechnology",
     subtitle: "Biofactories of the Future Driving Sustainable Innovation",
     description:
-      "Industrial Biotechnology focuses on using Enzymes and Microorganisms to develop Sustainable Industrial Processes. From Biofuels to Biodegradable Plastics, this field reduces reliance on Fossil Fuels while increasing efficiency in Manufacturing. Biocatalysis and Fermentation Technologies are transforming industries, making Industrial Biotechnology a key driver of the global Green Economy.",
+    <>
+      <Link to="/event_partners" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300">Industrial Biotechnology</Link> focuses on using Enzymes and Microorganisms to develop Sustainable Industrial Processes. From Biofuels to Biodegradable Plastics, this field reduces reliance on Fossil Fuels while increasing efficiency in Manufacturing. Biocatalysis and Fermentation Technologies are transforming industries, making Industrial Biotechnology a key driver of the global Green Economy.
+      </>
   },
   {
     image: plant_biotechnology,
     title: "Plant Biotechnology",
     subtitle: "Feeding the Future Through Crop Genetic Innovation",
     description:
-      "Plant Biotechnology integrates modern Genetic Tools to improve Crop Yields, Drought Resistance, and Nutritional Value. Technologies such as Gene Editing, Transgenic Crops, and Biological Pest Control help address Global Food Security challenges. These innovations support Sustainable Agriculture, reduce chemical inputs, and create Eco-Friendly Farming Solutions for future generations.",
+    <>
+      <Link to="https://helixconferences.com/buy-a-ticket" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300">Plant Biotechnology </Link>integrates modern Genetic Tools to improve Crop Yields, Drought Resistance, and Nutritional Value. Technologies such as Gene Editing, Transgenic Crops, and Biological Pest Control help address Global Food Security challenges. These innovations support Sustainable Agriculture, reduce chemical inputs, and create Eco-Friendly Farming Solutions for future generations.
+      </>
   },
   {
     image: environmental_biotechnology,
     title: "Environmental Biotechnology",
     subtitle: "Cleaning the Planet with Bio-Based Technologies",
     description:
-      "Environmental Biotechnology uses living organisms, especially Microbes and Plants, to clean polluted environments and manage waste sustainably. Through Bioremediation, Wastewater Treatment, and Pollution Control, this field offers Eco-Friendly Solutions to reduce Environmental Hazards, restore Ecosystems, and combat Climate Change by applying Biotechnology to preserve Natural Resources.",
+    <>
+      <Link to="/biotechnology-summit-orators" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300">Environmental Biotechnology</Link> uses living organisms, especially Microbes and Plants, to clean polluted environments and manage waste sustainably. Through Bioremediation, Wastewater Treatment, and Pollution Control, this field offers Eco-Friendly Solutions to reduce Environmental Hazards, restore Ecosystems, and combat Climate Change by applying Biotechnology to preserve Natural Resources.
+      </>
   },
   {
     image: genetic_engineering,
     title: "Genetic Engineering",
     subtitle: "Redesigning Life Through Advanced DNA Technology",
     description:
-      "Genetic Engineering enables precise modification of DNA in Plants, Animals, and Humans to introduce desirable traits. Techniques such as CRISPR-Cas9 and Recombinant DNA Technology drive Medical Breakthroughs, Agricultural Enhancements, and Biotech Innovations. This powerful science opens new possibilities while raising Ethical and Ecological questions in Biotechnology Applications.",
+    <>
+      "Genetic Engineering enables precise modification of DNA in Plants, Animals, and Humans to introduce desirable traits. Techniques such as CRISPR-Cas9 and Recombinant DNA Technology drive Medical Breakthroughs, Agricultural Enhancements, and Biotech Innovations. This powerful science opens new possibilities while raising Ethical and Ecological questions in <Link to="/event_schedule" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300" >Biotechnology</Link>  
+      Applications.     </>
   },
   {
     image: bioinformatics,
     title: "Bioinformatics",
     subtitle: "Big Data Meets Biology in the Digital Era",
     description:
-      "Bioinformatics is the Computational Backbone of Modern Biology, integrating Data Science, Artificial Intelligence, and Biology to decode complex Biological Data. It’s pivotal in Genomics, Proteomics, Drug Discovery, and Systems Biology. By analyzing Genetic Sequences and modeling Biological Functions, Bioinformatics accelerates innovation in Personalized Medicine and Biotechnological Research.",
+    <>
+      "Bioinformatics is the Computational Backbone of Modern Biology, integrating Data Science, Artificial Intelligence, and Biology to decode complex Biological Data. It’s pivotal in Genomics, Proteomics, Drug Discovery, and Systems Biology. By analyzing Genetic Sequences and modeling Biological Functions, Bioinformatics accelerates innovation in Personalized Medicine and <Link to="/" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300">Biotechnological Research.</Link>
+      </>
   },
   {
     image: nanotechnology,
     title: "Tissue Engineering",
     subtitle: "Building Living Systems for Regenerative Medicine",
     description:
-      "Tissue Engineering combines Biomaterials, Cells, and Biochemical Factors to restore, maintain, or improve tissue functions. It focuses on creating Lab-Grown Organs, Skin Substitutes, and Cartilage Implants, offering solutions for Organ Shortage and Chronic Diseases. By integrating Biology, Engineering, and Material Science, this field accelerates Regenerative Medicine, paving the way for Personalized Therapies and Functional Tissue Repair.",
+    <>
+      "Tissue Engineering combines Biomaterials, Cells, and Biochemical Factors to restore, maintain, or improve tissue functions. It focuses on creating Lab-Grown Organs, Skin Substitutes, and Cartilage Implants, offering solutions for Organ Shortage and Chronic Diseases. By integrating Biology, Engineering, and <Link to="/about-world-biotechnology-summit/" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300">Material Science,</Link> this field accelerates Regenerative Medicine, paving the way for Personalized Therapies and Functional Tissue Repair.
+      </>
   },
   {
     image: graphene,
     title: "Graphene in Biotechnology",
     subtitle: "Graphene: A Game-Changer in Modern Biomedicine",
     description:
-      "Graphene’s extraordinary properties — Strength, Flexibility, and Conductivity — make it an ideal material for Biotechnology and Healthcare Applications. It is widely used in Biosensors, Drug Delivery Systems, and Diagnostic Platforms. As a Next-Generation Nanomaterial, Graphene enhances Biomedical Devices and supports Personalized Medicine, Wearable Tech, and Antimicrobial Surfaces.",
+    <>
+      "Graphene’s extraordinary properties — Strength, Flexibility, and Conductivity — make it an ideal material for<Link to="/venue" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300">Biotechnology and Healthcare</Link>  Applications. It is widely used in Biosensors, Drug Delivery Systems, and Diagnostic Platforms. As a Next-Generation Nanomaterial, Graphene enhances Biomedical Devices and supports Personalized Medicine, Wearable Tech, and Antimicrobial Surfaces.
+      </>
   },
   {
     image: nanomaterials,
     title: "Nanomaterials",
     subtitle: "Building the Future with Advanced Nano Innovations",
     description:
-      "Nanomaterials are Engineered Substances with unique properties at the Nanoscale, transforming Biotechnology through applications in Medicine, Agriculture, and Environmental Cleanup. These materials enable precise Drug Delivery, Biosensing, and Regenerative Treatments. Their versatility makes them foundational in advancing Sustainable Technologies, Biomanufacturing, and Nanotechnology-Enhanced Diagnostics for Global Health Solutions.",
+    <>
+   
+    <Link to="/event_partners"  className="hover:text-one hover:decoration-accent
+             transition-colors duration-300"> Nanomaterials</Link> are Engineered Substances with unique properties at the Nanoscale, transforming Biotechnology through applications in Medicine, Agriculture, and Environmental Cleanup. These materials enable precise Drug Delivery, Biosensing, and Regenerative Treatments. Their versatility makes them foundational in advancing Sustainable Technologies, Biomanufacturing, and Nanotechnology-Enhanced Diagnostics for Global Health Solutions.
+      </>
   },
   {
     image: nanoelectronics,
     title: "Nanoelectronics",
     subtitle: "The Future Is Tiny: Revolutionizing Bio-Care",
     description:
-      "Nanoelectronics merges Electronics and Nanotechnology to build Ultra-Small, High-Performance Devices used in Biotechnology. Applications include Wearable Biosensors, Neural Implants, and Lab-on-a-Chip Diagnostics. This field is central to the future of Personalized Medicine, Real-Time Health Monitoring, and Minimally Invasive Treatments that deliver Precision Care with maximum efficiency.",
+    <>
+   
+      Nanoelectronics merges Electronics and  <Link to="/about-world-biotechnology-summit/">Nanotechnology</Link> to build Ultra-Small, High-Performance Devices used in Biotechnology. Applications include Wearable Biosensors, Neural Implants, and Lab-on-a-Chip Diagnostics. This field is central to the future of Personalized Medicine, Real-Time Health Monitoring, and Minimally Invasive Treatments that deliver Precision Care with maximum efficiency.
+      </>
   },
   {
     image: nanomedicine,
@@ -108,7 +152,10 @@ const tracks = [
     title: "Biochemistry",
     subtitle: "Molecules in Motion Fueling Biotech Innovation",
     description:
-      "Biochemistry explores Chemical Processes within Living Organisms, forming the foundation of Biotechnology. It enables advancements in Enzyme Engineering, Protein Synthesis, and Metabolic Pathways. Applications span Medical Diagnostics, Pharmaceuticals, and Environmental Biotechnology. Understanding Molecular Interactions allows scientists to innovate across Healthcare, Agriculture, and Industrial Biotech sectors with unmatched precision.",
+    <>
+    <Link to="/biotechnology-summit-orators">
+      Biochemistry </Link> explores Chemical Processes within Living Organisms, forming the foundation of Biotechnology. It enables advancements in Enzyme Engineering, Protein Synthesis, and Metabolic Pathways. Applications span Medical Diagnostics, Pharmaceuticals, and Environmental Biotechnology. Understanding Molecular Interactions allows scientists to innovate across Healthcare, Agriculture, and Industrial Biotech sectors with unmatched precision.
+      </>
   },
 ];
 
@@ -174,6 +221,7 @@ const StaticTracks = () => {
         <div className="container mx-auto px-4 py-10 space-y-20 flex flex-col items-center">
       {tracks.map((track, index) => {
         const isExpanded = expandedIndexes.includes(index);
+const fullText = extractText(track.description);
 
         return (
           <div
@@ -210,14 +258,16 @@ const StaticTracks = () => {
               </p>
 
               {/* Toggle Button */}
-              {track.description.split(" ").length > 40 && (
-                <button
-                  onClick={() => toggleExpand(index)}
-                  className="mt-2 text-blue-600 hover:underline w-fit text-sm font-medium transition-transform hover:scale-105 cursor-pointer"
-                >
-                  {isExpanded ? "Read Less" : "Read More"}
-                </button>
-              )}
+ {fullText.split(" ").length > 40 && (
+  <button
+    onClick={() => toggleExpand(index)}
+    className="mt-2 text-blue-600 hover:underline text-sm font-medium"
+  >
+    {isExpanded ? "Read Less" : "Read More"}
+  </button>
+)}
+
+
             </div>
           </div>
         );

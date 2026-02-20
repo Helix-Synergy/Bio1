@@ -20,7 +20,7 @@ const TracksSection = () => {
         >
           <img
             src={icon}
-            alt=""
+            alt="Tracks"
             className="h-8 w-8 object-contain shrink-0"
             loading="lazy"
           />
@@ -34,12 +34,12 @@ const TracksSection = () => {
     {/* Call-to-action Buttons */}
     <div className="my-4 md:mt-12 flex flex-col md:flex-row gap-4 items-center justify-center">
       <Link to="/tracks">
-        <button className="bg-one text-white px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
+        <button   aria-label="ReadMore" className="bg-one text-white px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
           Read More
         </button>
       </Link>
       <Link to="/abstract-submission">
-        <button className="border bg-black text-white px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
+        <button   aria-label="ReadMore" className="border bg-black text-white px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
           Submit Abstract
         </button>
       </Link>

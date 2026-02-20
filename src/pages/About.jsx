@@ -179,9 +179,9 @@ const AboutPublicHealth = () => {
    return (
      <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
        <div className={`${banner_style} w-full mx-auto about-banner`}>
-         <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4 z-10">
+         <h2 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4 z-10">
            {data.event.title}
-         </h1>
+         </h2>
        </div>
 
        <h1 className="text-4xl mt-2 font-bold text-one">
@@ -197,7 +197,7 @@ const AboutPublicHealth = () => {
        {data.event.description.map((desc, idx) => (
          <p
            key={idx}
-           className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+           className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24 text-justify"
          >
            {desc}
          </p>

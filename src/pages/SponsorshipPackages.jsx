@@ -23,7 +23,7 @@ const sponsorshipPackages = [
       "Online promotion on all social platforms",
       "10% waiver for next year's sponsorship",
     ],
-    badge: "https://i.ibb.co/KzwYy9bL/4.png",
+    badge: silver,
   },
 
   {
@@ -38,7 +38,7 @@ const sponsorshipPackages = [
       "2 inserts in delegate bags",
       "Online promotion on all social platforms",
     ],
-    badge: "https://i.ibb.co/B2WyS66W/3.png",
+    badge: gold,
   },
   {
     type: "Elite Sponsor",
@@ -53,7 +53,7 @@ const sponsorshipPackages = [
       "Post-conference email to registrants",
       "Online promotion on all social platforms",
     ],
-    badge: "https://i.ibb.co/qLqd7yhV/2.png",
+    badge: platinum,
   },
 ];
 const last_item = [
@@ -105,7 +105,7 @@ const SponsorshipPackages = () => {
               <div className="bg-one/50 rounded-tl-xl rounded-br-full mb-2 p-2 flex flex-row items-center">
                 <img
                   src={pkg.badge}
-                  alt=""
+                  alt="Badge"
                   className="object-contain w-16 h-16"
                 />
                 <h2 className="text-2xl font-semibold text-one">
@@ -141,7 +141,7 @@ const SponsorshipPackages = () => {
                <div className="bg-one/50 rounded-tl-xl rounded-br-full mb-2 p-2 flex flex-row items-center">
                 <img
                   src={pkg.badge}
-                  alt=""
+                  alt="Badge"
                   className="object-contain w-16 h-16"
                 />
                 <h2 className="text-2xl font-semibold text-one ">

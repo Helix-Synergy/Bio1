@@ -25,7 +25,7 @@ const OratorTemplate = ({ banner, image, name, from, about }) => {
 
       {/* full description */}
       <div className="px-2 md:px-24 my-4 md:mb-16 mb-12">
-        <p className="text-lg leading-[28px] text-center">{about}</p>
+        <p className="text-lg leading-[28px] text-justify">{about}</p>
       </div>
     </div>
   );

@@ -29,6 +29,7 @@ const Footer = () => {
             className="h-32 md:h-56 rounded-lg"
           />
         </div>
+      
         <p className="text-slate-200 text-sm px-4 md:px-8">
           From Research to Real-World Impact.
         </p>
@@ -36,9 +37,9 @@ const Footer = () => {
 
       {/* Grid 2 */}
       <div className="w-full md:w-1/4 flex flex-col items-center text-center md:text-left">
-        <h1 className="text-one font-semibold text-3xl border-b border-slate-800">
+        <h2 className="text-one font-semibold text-3xl border-b border-slate-800">
           Quick Links
-        </h1>
+        </h2>
         <div className="flex flex-col mt-4 gap-2">
           {nav_links.map((item, idx) => (
             <div key={idx} className="flex flex-row gap-1 justify-center md:justify-start items-center">
@@ -53,9 +54,9 @@ const Footer = () => {
 
       {/* Grid 3 */}
       <div className="w-full md:w-1/5 flex flex-col items-center md:items-start text-center md:text-left">
-        <h1 className="text-one font-semibold text-3xl border-b border-slate-800 w-auto md:w-[16vw]">
+        <h2 className="text-one font-semibold text-3xl border-b border-slate-800 w-auto md:w-[16vw]">
           Social Media
-        </h1>
+        </h2>
         {socialLinks.map(({ id, name, url, icon }) => (
           <div key={id} className="flex flex-row items-center justify-center md:justify-start mt-[6px]">
             <Link
@@ -73,9 +74,9 @@ const Footer = () => {
 
       {/* Grid 4 */}
       <div className="w-full md:w-1/4 flex flex-col gap-4 items-center md:items-start text-center md:text-left">
-        <h1 className="text-one font-semibold text-3xl border-b border-slate-800">
+        <h2 className="text-one font-semibold text-3xl border-b border-slate-800">
           Get In Touch
-        </h1>
+        </h2>
         <div className="flex flex-col gap-4 text-slate-300">
           {/* <div className="flex flex-row gap-2 items-center justify-center md:justify-start">
             <Phone size="18" />
@@ -90,12 +91,10 @@ const Footer = () => {
             <p>hello@helixconferences.com</p>
           </div>
           <div className="flex flex-row gap-2 items-start md:justify-start px-4 md:px-0">
-            <MapPin size="32" />
+            <MapPin size="30" />
             <p>
              
-              Helix Conferences LLC, <br></br>
-            45573 Shepard Drive, Suit#101,
-              <br/> Sterling, Virginia-20164, USA
+           Vancouver | Canada
             </p>
           </div>
         </div>

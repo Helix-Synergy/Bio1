@@ -182,17 +182,17 @@ const ContactForm = () => {
   return (
     <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
       <div className={`${banner_style} contact-banner mx-auto `}> {/* Changed to style prop if banner_style is an object */}
-        <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold">
+        <h2 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold">
           Contact Us
-        </h1>
+        </h2>
       </div>
 
       <div className="w-full flex flex-col md:flex-row gap-6 py-4 items-stretch justify-center md:px-10 px-4">
         {/* Left Side - Webinars & Conferences */}
         <div className="w-full md:w-1/2 flex flex-col items-center justify-center px-4 py-8 bg-white border border-gray-200 rounded-xl shadow-lg">
-          <h1 className="text-black text-3xl sm:text-4xl font-bold text-center">
+          <h2 className="text-black text-3xl sm:text-4xl font-bold text-center">
                   Upcoming Conferences-2026
-          </h1>
+          </h2>
           <div
             className="w-full flex flex-col py-6 md:flex-row gap-6 "
             // style={{
@@ -300,62 +300,94 @@ const ContactForm = () => {
               </div>
             )}
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input
-                name="firstName"
-                value={form.firstName}
-                onChange={handleChange}
-                placeholder="First Name"
-                required
-                className="border border-gray-300 p-3 rounded"
-              />
-              <input
-                name="lastName"
-                value={form.lastName}
-                onChange={handleChange}
-                placeholder="Last Name"
-                required
-                className="border border-gray-300 p-3 rounded"
-              />
-            </div>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+  <div className="flex flex-col gap-1">
+    <label htmlFor="firstName" className="text-sm font-medium text-gray-700 text-left">
+      First Name
+    </label>
+    <input
+      name="firstName"
+      value={form.firstName}
+      onChange={handleChange}
+      placeholder="First Name"
+      required
+      className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+    />
+  </div>
 
-            <input
-              type="email"
-              name="email"
-              value={form.email}
-              onChange={handleChange}
-              placeholder="Email"
-              required
-              className="border border-gray-300 p-3 rounded"
-            />
+  <div className="flex flex-col gap-1">
+    <label htmlFor="lastName" className="text-sm font-medium text-gray-700 text-left">
+      Last Name
+    </label>
+    <input
+      name="lastName"
+      value={form.lastName}
+      onChange={handleChange}
+      placeholder="Last Name"
+      required
+      className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+    />
+  </div>
+</div>
 
-            <input
-              name="phone"
-              value={form.phone}
-              onChange={handleChange}
-              placeholder="Phone"
-              className="border border-gray-300 p-3 rounded"
-            />
+<div className="flex flex-col gap-1 mt-5">
+  <label htmlFor="email" className="text-sm font-medium text-gray-700 text-left">
+    Email
+  </label>
+  <input
+    type="email"
+    name="email"
+    value={form.email}
+    onChange={handleChange}
+    placeholder="Email"
+    required
+    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+  />
+</div>
 
-            <input
-              name="company"
-              value={form.company}
-              onChange={handleChange}
-              placeholder="Company / University"
-              className="border border-gray-300 p-3 rounded"
-            />
+<div className="flex flex-col gap-1 mt-5">
+  <label htmlFor="phone" className="text-sm font-medium text-gray-700 text-left">
+    Phone
+  </label>
+  <input
+    name="phone"
+    value={form.phone}
+    onChange={handleChange}
+    placeholder="Phone"
+    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+  />
+</div>
 
-            <textarea
-              name="message"
-              value={form.message}
-              onChange={handleChange}
-              placeholder="Your Message"
-              rows={4}
-              required
-              className="border border-gray-300 p-3 rounded"
-            />
+<div className="flex flex-col gap-1 mt-5">
+  <label htmlFor="company" className="text-sm font-medium text-gray-700 text-left">
+    Company / University
+  </label>
+  <input
+    name="company"
+    value={form.company}
+    onChange={handleChange}
+    placeholder="Company / University"
+    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+  />
+</div>
+
+<div className="flex flex-col gap-1 mt-5">
+  <label htmlFor="message" className="text-sm font-medium text-gray-700 text-left">
+    Your Message
+  </label>
+  <textarea
+    name="message"
+    value={form.message}
+    onChange={handleChange}
+    placeholder="Your Message"
+    rows={4}
+    required
+    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 resize-none"
+  />
+</div>
 
             <button
+             aria-label="submit" 
               type="submit"
               className="bg-one w-[120px] self-center text-white px-6 py-2 rounded-lg hover:opacity-80 transition"
               disabled={loading}

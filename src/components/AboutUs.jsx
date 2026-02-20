@@ -34,7 +34,7 @@ const AboutUs = () => {
                 size={24}
                 className="text-one flex-shrink-0 mt-1"
               />
-              <p className="text-sm md:text-base">
+              <p className="text-sm md:text-base text-justify ">
                 Biotechnology continues to revolutionize Healthcare,
                 Agriculture, and Environmental Sustainability. One of the best
                 ways to stay informed and connected is by attending{" "}

@@ -6,7 +6,7 @@ const ScheduleCard = ({ time, plan, note, image }) => {
     <div className="flex flex-col sm:flex-row w-full max-w-5xl mx-auto items-start sm:items-center justify-between border border-one rounded-xl px-4 sm:px-8 py-4 gap-4 sm:gap-6">
       {/* Left-side area */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center w-full sm:w-auto gap-4">
-        <img src={image} alt="" className="h-24 w-24 sm:h-28 sm:w-28 object-cover rounded-full shrink-0 border border-one/50" loading="lazy" />
+        <img src={image} alt="ScheduleCard" className="h-24 w-24 sm:h-28 sm:w-28 object-cover rounded-full shrink-0 border border-one/50" loading="lazy" />
 
         <div className="flex flex-col gap-2 w-full">
           {/* Time and location */}

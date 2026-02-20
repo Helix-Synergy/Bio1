@@ -244,13 +244,13 @@ const fullText = extractText(track.description);
                 <Sparkle className="fill-one" />
                 {track.title}
               </h2>
-              <h3 className="text-xl text-gray-600 font-semibold mb-3">
+              <h3 className="text-xl text-gray-600 font-semibold mb-3 text-justify">
                 {track.subtitle}
               </h3>
 
               {/* Description with Read More / Read Less */}
               <p
-                className={`text-md text-gray-800 leading-relaxed transition-all duration-300 ${
+                className={`text-md text-gray-800 leading-relaxed transition-all duration-300 text-justify ${
                   isExpanded ? "" : "line-clamp-5"
                 }`}
               >
@@ -260,6 +260,7 @@ const fullText = extractText(track.description);
               {/* Toggle Button */}
  {fullText.split(" ").length > 40 && (
   <button
+   aria-label="submit" 
     onClick={() => toggleExpand(index)}
     className="mt-2 text-blue-600 hover:underline text-sm font-medium"
   >

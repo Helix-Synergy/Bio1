@@ -161,6 +161,7 @@ const TrackCard = ({ title, subtitle, description, image, reverse }) => {
         {/* Read Less */}
         {expanded && (
           <button
+           aria-label="button" 
             className="mt-2 text-blue-600 font-medium hover:underline w-fit"
             onClick={(e) => {
               e.stopPropagation();

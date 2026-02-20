@@ -54,6 +54,7 @@ const EventSchedule = ({ height, name, link }) => {
       <div className="flex flex-wrap justify-center gap-4 my-6 bg-one/20 p-4 rounded-2xl shadow-lg backdrop-blur-sm">
         {[1, 2].map((day) => (
           <button
+            aria-label="button"
             key={day}
             onClick={() => setSelectedDay(day)}
             className={`flex items-center gap-3 px-4 py-2 rounded-full border border-white/30 text-xs md:text-sm font-medium shadow-[0_4px_20px_rgba(0,0,0,0.1)] transition-all duration-300 ${

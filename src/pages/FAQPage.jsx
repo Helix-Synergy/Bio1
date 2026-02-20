@@ -183,6 +183,7 @@ const Faq = () => {
       {faqData.map((item, index) => (
         <div key={index} className="border-b border-gray-300 mb-4">
           <button
+           aria-label="ReadMore" 
             className="w-full text-left py-4 px-2 font-medium text-lg flex justify-between items-center"
             onClick={() => toggle(index)}
           >

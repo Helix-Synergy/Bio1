@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, Phone, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/Logo/WhatsApp Image 2025-12-01 at 13.27.44_d8d09f56.jpg";
+import logo from "../assets/BIOCONLOGO.jpg";
 import "../Styles/GoogleTranslate.css";
 
 const Navbar = () => {
@@ -136,7 +136,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile/Tablet Burger Menu Button */}
-        <div className="lg:hidden ml-auto z-300">
+        <div className="lg:hidden ml-[150px] z-300">
           <button   aria-label="button" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>

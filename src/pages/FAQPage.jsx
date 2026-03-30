@@ -9,16 +9,16 @@ const faqLinks = {
 
 export const faqData = [
   {
-    question: "What is BIOCON 2026?",
+    question: "What is BIOCON 2027?",
     answer:
-      "BIOCON 2026, officially known as the “International Conference on Applied Lifesciences” (BIOCON-2026), is a premier International conference organized by Helix Conferences. The event aims to bring together Biotechnology Professionals, Researchers, and Industry leaders to discuss and explore Advancements & Innovations in Biotechnology.",
+      "BIOCON 2027, officially known as the “International Conference on Applied Lifesciences” (BIOCON-2027), is a premier International conference organized by Helix Conferences. The event aims to bring together Biotechnology Professionals, Researchers, and Industry leaders to discuss and explore Advancements & Innovations in Biotechnology.",
   },
   {
-    question: "When and Where will the BIOCON 2026 take place?",
-    answer: "The conference will be held in Amsterdam, Netherlands from June 25–26, 2026.",
+    question: "When and Where will the BIOCON 2027 take place?",
+    answer: "The conference will be held in Amsterdam, Netherlands from June 29–30, 2027.",
   },
   {
-    question: "What are the highlights of BIOCON 2026?",
+    question: "What are the highlights of BIOCON 2027?",
     answer:
       "Networking opportunities with Industry leaders and Biotechnology Professionals. Interactive Workshops and Sessions. Exhibitions showcasing Innovations, Products, and Services.",
   },
@@ -94,7 +94,7 @@ export const faqData = [
       "Presentation slots typically range from 15 to 25 minutes. Specific times will be assigned once your abstract is accepted.",
   },
   {
-    question: "Who will be attending the BIOCON 2026?",
+    question: "Who will be attending the BIOCON 2027?",
     answer:
       "This event is expected to attract a diverse group of professionals from the Global Biotechnology community.",
   },

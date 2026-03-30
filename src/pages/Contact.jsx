@@ -190,8 +190,8 @@ const ContactForm = () => {
       <div className="w-full flex flex-col md:flex-row gap-6 py-4 items-stretch justify-center md:px-10 px-4">
         {/* Left Side - Webinars & Conferences */}
         <div className="w-full md:w-1/2 flex flex-col items-center justify-center px-4 py-8 bg-white border border-gray-200 rounded-xl shadow-lg">
-          <h2 className="text-black text-3xl sm:text-4xl font-bold text-center">
-                  Upcoming Conferences-2026
+          <h2 className="text-black text-m sm:text-4xl font-bold text-center">
+                  Upcoming Conferences- 2026 & 2027
           </h2>
           <div
             className="w-full flex flex-col py-6 md:flex-row gap-6 "
@@ -242,7 +242,7 @@ const ContactForm = () => {
             {/* Hybrid Conferences */}
             <div className="w-full md:w-100 bg-white border border-one shadow-md rounded-xl overflow-hidden h-[70vh]">
               <h2 className="bg-one/80 text-white text-xl font-bold py-3 text-center z-10 relative">
-                Conferences-2026
+                Conferences-2026 & 2027
               </h2>
               <div
                 className="relative overflow-y-auto scrollbar-hide"
@@ -267,7 +267,7 @@ const ContactForm = () => {
                   {infiniteHybridConferences.map((item, idx) => (
                     <a
                       key={`hybrid-${idx}`}
-                      href="https://helixconferences.com/hybrid-events.php"
+                      href="https://helixconferences.com/"
                       className="block text-black text-base py-2 px-4 bg-white shadow rounded my-1 mx-2 hover:bg-gray-50 transition cursor-pointer"
                       target="_blank"
                       rel="noopener noreferrer"

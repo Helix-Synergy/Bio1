@@ -14,7 +14,7 @@ const links = [
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/brochure-download'
+    link: '/Biocon_Brochure.pdf' // Ensure this file is in the public folder
   },
   {
     id: 'event-schedule',
@@ -106,8 +106,8 @@ const QuickLinks = () => {
       return (
         <a
           key={id}
-          href="/foodmeet_brochure.pdf"
-          download="foodmeet_brochure.pdf"
+          href="/Biocon_Brochure.pdf"
+          download="Biocon.pdf"
           target="_self"
           rel="noopener noreferrer"
           onMouseEnter={() => setHoveredId(id)}

@@ -32,7 +32,7 @@ const Home = () => {
             </h2>
             <div className="flex flex-col justify-center items-start leading-tight">
               <p className="text-base md:text-lg font-bold">
-                25 - 26 | 2026
+                29 - 30 | 2027
               </p>
               <p className="text-base font-extrabold md:text-lg gap-2 flex flex-row font-normal">
                Amsterdam | Netherlands
@@ -44,7 +44,7 @@ const Home = () => {
           International Conference on Applied Lifesciences
           </h1>
           <p className="text-2xl md:text-5xl text-slate-200">
-            Biocon - 2026
+            Biocon - 2027
           </p>
           <div className="float-end mt-4">
             <FlipClock />

@@ -23,7 +23,7 @@ import { banner_style } from "../Styles/styles";
 const data = {
    event: {
      title: "About Event",
-     date: "25–26 June 2026",
+     date: "29–30 June 2027",
      location: "Amsterdam | Netherlands",
      organizer: "Helix Conferences",
      description: [
@@ -78,7 +78,7 @@ const data = {
      "Helix Conferences is committed to delivering an experience that combines scientific excellence with practical applications, ensuring attendees leave with actionable knowledge to advance practices.",
    ],
    aboutHelix: [
-     "Helix Conferences has a longstanding reputation as a premier global conference organizer specializing in healthcare and scientific events. With years of expertise in curating impactful conferences, Helix ensures that every detail of the 2026 Oral Medicine Conference is crafted to deliver maximum value to attendees.",
+     "Helix Conferences has a longstanding reputation as a premier global conference organizer specializing in healthcare and scientific events. With years of expertise in curating impactful conferences, Helix ensures that every detail of the 2027 Oral Medicine Conference is crafted to deliver maximum value to attendees.",
    ],
    whoShouldAttend: [
      "Oral medicine specialists and dentists",
@@ -88,7 +88,7 @@ const data = {
      "Students and trainees in dentistry and related fields",
    ],
    join: [
-     "The 2026 Public Health Conference by Helix Conferences is more than just an event, it's a global movement toward better public health through science, technology, and collaboration. Join thousands of professionals from around the world as they share knowledge, advance research, and inspire innovation in public health.",
+     "The 2027 Public Health Conference by Helix Conferences is more than just an event, it's a global movement toward better public health through science, technology, and collaboration. Join thousands of professionals from around the world as they share knowledge, advance research, and inspire innovation in public health.",
    ],
    themes: [
      {
@@ -169,7 +169,7 @@ const data = {
 
    ],
    dates: {
-     eventDate: "25-26 June",
+     eventDate: "29-30 June",
      venue: "Amsterdam | Netherlands",
      registrationDeadline: "19th June",
    },

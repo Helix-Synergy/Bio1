@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { MapPin, PlaneIcon, Star } from "lucide-react";
+import { MapPin, Star } from "lucide-react";
 import { visit_places } from "../utils/Venue/Venue";
 import { banner_style } from "../Styles/styles";
 import VenueMap from "../components/ui/VenueMap";
@@ -31,7 +31,7 @@ const Venue = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row items-center my-6 gap-6">
-        <div className="lg:w-[40vw]">
+        <div className="lg:w-[40vw] max-w-2xl">
           <img
             src="https://media-cdn.holidaycheck.com/w_1280,h_720,c_fit,q_80/ugc/images/caaa0d5f-82e2-35ec-9dc9-04183b19570f"
             alt="Venue"

@@ -1,6 +1,6 @@
 import { CircleChevronRight } from "lucide-react";
 import React from "react";
-import about_img from "../assets/about_img.jpg"
+import about_img from "../assets/about_img.webp"
 import { Link } from "react-router-dom";
 
 const AboutUs = () => {

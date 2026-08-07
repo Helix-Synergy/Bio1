@@ -6,8 +6,8 @@ import { banner_style } from "../Styles/styles";
 
 const Schedule = () => {
   return (
-    <div className="container mx-auto ">
-      <section className="container w-[100%] mx-auto flex flex-col items-center justify-center">
+    <div className="w-full mx-auto">
+      <section className="w-full mx-auto justify-center items-center text-center">
         <div className={`${banner_style} schedule-banner `}>
           <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
             Biocon - 2027

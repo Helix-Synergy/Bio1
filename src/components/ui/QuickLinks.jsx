@@ -8,13 +8,13 @@ const links = [
     id: 'mobile',
     icon: Phone,
     label: 'Call Us',
-    path: 'tel:+13052398055'
+    path: 'tel:+17036516096'
   },
   {
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/Biocon_Brochure.pdf' // Ensure this file is in the public folder
+    link: '/brochure-download' // Navigate to brochure download page with form
   },
   {
     id: 'event-schedule',
@@ -32,7 +32,7 @@ const links = [
     id: 'whatsapp',
     icon: WhatsAppIcon,
     label: 'WhatsApp',
-    link: 'https://api.whatsapp.com/send/?phone=13052398055&text=Hello&type=phone_number&app_absent=0'
+    link: 'https://api.whatsapp.com/send/?phone=17036516096&text=Hello&type=phone_number&app_absent=0'
   },
   {
     id: 'faq',
@@ -65,7 +65,7 @@ const QuickLinks = () => {
           transition: all 0.8s ease-in-out;
         }
       `}</style>
-{/* 
+      {/* 
       <div className="fixed bottom-8 right-0 z-30 flex flex-col space-y-3">
         {links.map(({ id, icon: Icon, label, path, link }) => {
           const isActive = hoveredId === id;
@@ -94,56 +94,32 @@ const QuickLinks = () => {
         })}
       </div> */}
       <div className="fixed bottom-8 right-0 z-30 flex flex-col space-y-3">
-  {links.map(({ id, icon: Icon, label, path, link }) => {
-    const isActive = hoveredId === id;
-    const href = path || link;
-    const classes = `flex items-center bg-white shadow-md rounded-l-full overflow-hidden transform transition-all duration-300 ${
-      isActive ? 'translate-x-0' : 'translate-x-40'
-    } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`;
+        {links.map(({ id, icon: Icon, label, path, link }) => {
+          const isActive = hoveredId === id;
+          const href = path || link;
+          const classes = `flex items-center bg-white shadow-md rounded-l-full overflow-hidden transform transition-all duration-300 ${isActive ? 'translate-x-0' : 'translate-x-40'
+            } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`;
 
-    // ✅ Conditionally render PDF download for brochure
-    if (id === 'brochure-download') {
-      return (
-        <a
-          key={id}
-          href="/Biocon_Brochure.pdf"
-          download="Biocon.pdf"
-          target="_self"
-          rel="noopener noreferrer"
-          onMouseEnter={() => setHoveredId(id)}
-          onMouseLeave={() => setHoveredId(null)}
-          className={classes}
-        >
-          <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full transition-custom">
-            <Icon className="h-5 w-5" />
-          </div>
-          <span className="ml-4 pr-4 text-sm font-medium text-gray-800 whitespace-nowrap">
-            {label}
-          </span>
-        </a>
-      );
-    }
-
-    // ✅ Normal route links
-    return (
-      <Link
-        key={id}
-        to={href}
-        rel="noopener noreferrer"
-        onMouseEnter={() => setHoveredId(id)}
-        onMouseLeave={() => setHoveredId(null)}
-        className={classes}
-      >
-        <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full transition-custom">
-          <Icon className="h-5 w-5" />
-        </div>
-        <span className="ml-4 pr-4 text-sm font-medium text-gray-800 whitespace-nowrap">
-          {label}
-        </span>
-      </Link>
-    );
-  })}
-</div>
+          // ✅ Normal route links
+          return (
+            <Link
+              key={id}
+              to={href}
+              rel="noopener noreferrer"
+              onMouseEnter={() => setHoveredId(id)}
+              onMouseLeave={() => setHoveredId(null)}
+              className={classes}
+            >
+              <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full transition-custom">
+                <Icon className="h-5 w-5" />
+              </div>
+              <span className="ml-4 pr-4 text-sm font-medium text-gray-800 whitespace-nowrap">
+                {label}
+              </span>
+            </Link>
+          );
+        })}
+      </div>
 
     </>
   );

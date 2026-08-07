@@ -1,16 +1,16 @@
-import Mehmet from "../../assets/Pannel Members/Mehmet-Onder-Pekcan.jpg";
-import Emin from "../../assets/Pannel Members/Emin-Taner-Elmas.jpg";
-import LauraSarbu from "../../assets/Pannel Members/LauraSarbu.jpg";
-import Aliomur from "../../assets/Pannel Members/ali-omur.jpg";
-import Mihail from "../../assets/Pannel Members/Mihail.jpg";
-import Valasia from "../../assets/Pannel Members/valasia.jpg";
+import Mehmet from "../../assets/Pannel Members/Mehmet-Onder-Pekcan.webp";
+import Emin from "../../assets/Pannel Members/Emin-Taner-Elmas.webp";
+import LauraSarbu from "../../assets/Pannel Members/LauraSarbu.webp";
+import Aliomur from "../../assets/Pannel Members/ali-omur.webp";
+import Mihail from "../../assets/Pannel Members/Mihail.webp";
+import Valasia from "../../assets/Pannel Members/valasia.webp";
 
-import Mehmet_banner from "../../assets/Pannel Banners/mehmet_banner.jpg";
-import Emin_banner from "../../assets/Pannel Banners/emin_banner.jpg";
-import LauraSarbu_banner from "../../assets/Pannel Banners/laura_banner.jpg";
-import Aliomur_banner from "../../assets/Pannel Banners/aliomur_banner.jpg";
-import Mihail_banner from "../../assets/Pannel Banners/mihail_banner.jpg";
-import Valasia_banner from "../../assets/Pannel Banners/valasia_banner.jpg";
+import Mehmet_banner from "../../assets/Pannel Banners/mehmet_banner.webp";
+import Emin_banner from "../../assets/Pannel Banners/emin_banner.webp";
+import LauraSarbu_banner from "../../assets/Pannel Banners/laura_banner.webp";
+import Aliomur_banner from "../../assets/Pannel Banners/aliomur_banner.webp";
+import Mihail_banner from "../../assets/Pannel Banners/mihail_banner.webp";
+import Valasia_banner from "../../assets/Pannel Banners/valasia_banner.webp";
 
 export const panel_members_about = [
   {

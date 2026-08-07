@@ -1,5 +1,4 @@
-import { Facebook, Twitter, Instagram, Youtube, Linkedin } from "lucide-react";
-import { FaReddit } from 'react-icons/fa';
+import { Facebook, Instagram, Youtube, Linkedin } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 //Social Links
 
@@ -31,14 +30,8 @@ export const socialLinks = [
   {
     id: "linkedin",
     name: "LinkedIn",
-    url: "https://www.linkedin.com/company/helixconferences",
+    url: "https://www.linkedin.com/in/sri-r-b7791a224/",
     icon: <Linkedin size={18} />,
-  },
-  {
-    id: "reddit",
-    name: "Reddit",
-    url: "https://www.reddit.com/user/Salty-Ad6381/",
-    icon: <FaReddit size={18} />,
   },
 ];
 

@@ -1,7 +1,7 @@
-import breakfast from '../../assets/Schedule icons/breakfast.png';
-import refreshment from '../../assets/Schedule icons/refreshment.png';
-import registration from '../../assets/Schedule icons/registration.png';
-import Profile from '../../assets/Schedule icons/profile.png';
+import breakfast from '../../assets/Schedule icons/breakfast.webp';
+import refreshment from '../../assets/Schedule icons/refreshment.webp';
+import registration from '../../assets/Schedule icons/registration.webp';
+import Profile from '../../assets/Schedule icons/profile.webp';
 
 const schedule_plan3 = [
   {

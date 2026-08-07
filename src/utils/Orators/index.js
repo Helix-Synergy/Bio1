@@ -1,14 +1,14 @@
 // Orator Images
-import mohammed from "../../assets/Orators/Mohammed.jpg";
-import cristiano from "../../assets/Orators/cristiano-jose.jpg";
-import Paulo from "../../assets/Orators/Paulo-Cesar-De-Morais.jpg";
-import Thomas from "../../assets/Orators/thomas-webster.jpg";
+import mohammed from "../../assets/Orators/Mohammed.webp";
+import cristiano from "../../assets/Orators/cristiano-jose.webp";
+import Paulo from "../../assets/Orators/Paulo-Cesar-De-Morais.webp";
+import Thomas from "../../assets/Orators/thomas-webster.webp";
 
 // Orator Banners
-import mohammed_banner from "../../assets/Orator Banners/mohammed_banner.jpg";
-import cristiano_banner from "../../assets/Orator Banners/cristiano_banner..jpg";
-import paulo_banner from "../../assets/Orator Banners/paulo_banner.jpg";
-import thomas_banner from "../../assets/Orator Banners/thomas_banner.jpg";
+import mohammed_banner from "../../assets/Orator Banners/mohammed_banner.webp";
+import cristiano_banner from "../../assets/Orator Banners/cristiano_banner..webp";
+import paulo_banner from "../../assets/Orator Banners/paulo_banner.webp";
+import thomas_banner from "../../assets/Orator Banners/thomas_banner.webp";
 
 // Orator Display List
 export const orators = [

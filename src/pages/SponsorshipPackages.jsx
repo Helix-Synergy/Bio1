@@ -1,7 +1,7 @@
-import silver from "../assets/badges/silver.png"
-import gold from "../assets/badges/gold.png"
-import platinum from "../assets/badges/platinum.png"
-import exhibitor from "../assets/badges/exhibitor.png"
+import silver from "../assets/badges/silver.webp"
+import gold from "../assets/badges/gold.webp"
+import platinum from "../assets/badges/platinum.webp"
+import exhibitor from "../assets/badges/exhibitor.webp"
 import { banner_style } from "../Styles/styles";
 import { div } from "framer-motion/client";
 import { Check, Sparkle, Sparkles, Star } from "lucide-react";
@@ -86,7 +86,7 @@ const last_item = [
 
 const SponsorshipPackages = () => {
   return (
-    <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
+    <div className="w-full  mx-auto justify-center items-center text-center">
       <div className={`${banner_style} event-partners-banner w-full mx-auto`}>
         <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
           Sponsorship Packages

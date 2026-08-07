@@ -2,19 +2,19 @@ import React, { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 // import { trackImages } from "../assets";
 import { Sparkle } from "lucide-react";
-import animal_biotechnology from "../assets/tracks/animal_biotechnology.jpg";
-import industrial_biotechnology from "../assets/tracks/industrial_biotechnology.jpg";
-import environmental_biotechnology from "../assets/tracks/environmental_biotechnology.jpg";
-import genetic_engineering from "../assets/tracks/genetic_engineering.jpg";
-import bioinformatics from "../assets/tracks/bioinfomatics.jpg";
-import nanotechnology from "../assets/tracks/nano_technology.jpg";
-import graphene from "../assets/tracks/graphene.jpg";
-import nanomaterials from "../assets/tracks/nano_materials.jpg";
-import nanoelectronics from "../assets/tracks/nano_electronics.jpg";
-import nanomedicine from "../assets/tracks/nano_medicine.jpg";
-import nanobiotechnology from "../assets/tracks/nano_biotechnology.jpg";
-import biochemistry from "../assets/tracks/biochemistry.jpg";
-import plant_biotechnology from "../assets/tracks/synthetics_biology.jpg";
+import animal_biotechnology from "../assets/tracks/animal_biotechnology.webp";
+import industrial_biotechnology from "../assets/tracks/industrial_biotechnology.webp";
+import environmental_biotechnology from "../assets/tracks/environmental_biotechnology.webp";
+import genetic_engineering from "../assets/tracks/genetic_engineering.webp";
+import bioinformatics from "../assets/tracks/bioinfomatics.webp";
+import nanotechnology from "../assets/tracks/nano_technology.webp";
+import graphene from "../assets/tracks/graphene.webp";
+import nanomaterials from "../assets/tracks/nano_materials.webp";
+import nanoelectronics from "../assets/tracks/nano_electronics.webp";
+import nanomedicine from "../assets/tracks/nano_medicine.webp";
+import nanobiotechnology from "../assets/tracks/nano_biotechnology.webp";
+import biochemistry from "../assets/tracks/biochemistry.webp";
+import plant_biotechnology from "../assets/tracks/synthetics_biology.webp";
 import {Link} from "react-router-dom"
 
 

@@ -6,19 +6,19 @@ const ImageGalleryCard = () => {
       {/* First row */}
       <div className="flex flex-wrap md:flex-nowrap gap-4 justify-center">
         <img
-          src="https://t4.ftcdn.net/jpg/03/79/92/53/360_F_379925357_jenHAU5G0bNJUVmM2w0fhsYKzzI504Ma.jpg"
+          src="https://t4.ftcdn.net/jpg/03/79/92/53/360_F_379925357_jenHAU5G0bNJUVmM2w0fhsYKzzI504Ma.webp"
           alt="VenueImage1"
           loading="lazy"
           className="h-44 w-full sm:w-40 object-cover rounded-xl"
         />
         <img
-          src="https://www.amsterdamsights.com/attractions/img/vondelpark.jpg"
+          src="https://www.amsterdamsights.com/attractions/img/vondelpark.webp"
        alt="VenueImage2"
           loading="lazy"
           className="h-44 w-full sm:w-[60%] object-cover rounded-xl"
         />
         <img
-          src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0e/7d/9d/a8.jpg"
+          src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0e/7d/9d/a8.webp"
        alt="VenueImage3"
           loading="lazy"
           className="h-44 w-full sm:w-40 object-cover rounded-xl"
@@ -28,7 +28,7 @@ const ImageGalleryCard = () => {
       {/* Second row */}
       <div className="flex flex-wrap md:flex-nowrap gap-4 justify-center">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Amsterdam_%28NL%29%2C_Anne-Frank-Huis_--_2015_--_7185.jpg"
+          src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Amsterdam_%28NL%29%2C_Anne-Frank-Huis_--_2015_--_7185.webp"
            alt="VenueImage4"
           loading="lazy"
           className="h-44 w-full sm:w-[60%] object-cover rounded-xl"

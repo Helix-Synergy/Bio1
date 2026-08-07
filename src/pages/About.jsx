@@ -177,7 +177,7 @@ const data = {
 
 const AboutPublicHealth = () => {
    return (
-     <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
+     <div className="w-full  mx-auto justify-center items-center text-center">
        <div className={`${banner_style} w-full mx-auto about-banner`}>
          <h2 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4 z-10">
            {data.event.title}

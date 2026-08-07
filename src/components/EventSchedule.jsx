@@ -77,7 +77,7 @@ const EventSchedule = ({ height, name, link }) => {
         ))}
       </div>
 
-      <div className="w-full">
+      <div className="w-full mx-auto">
         {loading ? (
           <p className="text-center text-slate-500">Loading schedule...</p>
         ) : renderSchedule().length > 0 ? (

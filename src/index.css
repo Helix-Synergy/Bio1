@@ -69,7 +69,7 @@
 }
 
 .banner {
-  background-image: url('./assets/Page Banners/bg.jpg');
+  background-image: url('./assets/Page Banners/bg.webp');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,7 +139,7 @@
 
 /* About Page Banner */
 .about-banner {
-  background-image: url("./assets/Page Banners/about.jpg");
+  background-image: url("./assets/Page Banners/about.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -147,13 +147,17 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
+  border-radius: 0;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /* Contact Page Banner */
 .contact-banner {
-  background-image: url("./assets/Page Banners/contact.jpg");
+  background-image: url("./assets/Page Banners/contact.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -161,13 +165,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
+  border-radius: 0;
+  width: 100%;
 }
 
 /* Event Partners Page Banner */
 .event-partners-banner {
-  background-image: url("./assets/Page Banners/event_partners.jpg");
+  background-image: url("./assets/Page Banners/event_partners.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -175,13 +179,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
+  border-radius: 0;
+  width: 100%;
 }
 
 /* Executive Panel Page Banner */
 .executive-panel-banner {
-  background-image: url("./assets/Page Banners/executive.jpg");
+  background-image: url("./assets/Page Banners/executive.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -189,13 +193,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
+  border-radius: 0;
+  width: 100%;
 }
 
 /* Orators Page Banner */
 .orators-banner {
-  background-image: url("./assets/Page Banners/orators.jpg");
+  background-image: url("./assets/Page Banners/orators.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -203,13 +207,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
+  border-radius: 0;
+  width: 100%;
 }
 
 /* Register Page Banner */
 .register-banner {
-  background-image: url("./assets/Page Banners/register.jpg");
+  background-image: url("./assets/Page Banners/register.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -217,13 +221,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
+  border-radius: 0;
+  width: 100%;
 }
 
 /* Schedule Page Banner */
 .schedule-banner {
-  background-image: url("./assets/Page Banners/schedule.jpg");
+  background-image: url("./assets/Page Banners/schedule.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -231,13 +235,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
+  border-radius: 0;
+  width: 100%;
 }
 
 /* Tracks Page Banner */
 .abstract-banner {
-  background-image: url("./assets/Page Banners/tracks.jpg");
+  background-image: url("./assets/Page Banners/tracks.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -245,12 +249,12 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
+  border-radius: 0;
   width: 100%;
 }
 
 .brochure-banner {
-  background-image: url('./assets/Page Banners/Brochure.jpg');
+  background-image: url('./assets/Page Banners/Brochure.webp');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -258,21 +262,21 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
+  border-radius: 0;
+  width: 100%;
 }
 
 .venue-banner {
-  background-image: url("./assets/Page\ Banners/venue.jpg");
+  background-image: url("./assets/Page\ Banners/venue.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
+  border-radius: 0;
+  width: 100%;
 }
 
 /* .executive-panel-banner {
-  background-image: url('./assets/Page Banners/executive.jpg');
+  background-image: url('./assets/Page Banners/executive.webp');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -280,8 +284,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 } */
 

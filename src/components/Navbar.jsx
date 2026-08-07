@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, Phone, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/BIOCONLOGO.jpg";
+import logo from "../assets/BIOCONLOGO.webp";
 import "../Styles/GoogleTranslate.css";
 
 const Navbar = () => {

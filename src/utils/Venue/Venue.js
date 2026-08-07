@@ -8,25 +8,25 @@ export const visit_places = [
   {
     name: "Anne Frank House",
     image:
-      "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/550000/550930-anne-frank-house.jpg",
+      "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/550000/550930-anne-frank-house.webp",
     km: "0.5",
   },
   {
     name: "The Royal Palace of Amsterdam",
     image:
-      "https://wallpapers.com/images/hd/amsterdam-royal-palace-photography-e10zrb1pad6c7ld5.jpg",
+      "https://wallpapers.com/images/hd/amsterdam-royal-palace-photography-e10zrb1pad6c7ld5.webp",
     km: "0.9",
   },
   {
     name: "Albert Cuyp Market",
     image:
-    " https://c8.alamy.com/comp/BFA6WT/amsterdam-albert-cuypstraat-cuyp-market-netherlands-BFA6WT.jpg",
+    " https://c8.alamy.com/comp/BFA6WT/amsterdam-albert-cuypstraat-cuyp-market-netherlands-BFA6WT.webp",
     km: "2.1",
   },
   {
     name: "NEMO Science Museum",
     image:
-      "https://media.cntraveler.com/photos/540a297981424d9d655be1e5/master/pass/nemo-science-museum-amsterdam.jpg",
+      "https://media.cntraveler.com/photos/540a297981424d9d655be1e5/master/pass/nemo-science-museum-amsterdam.webp",
     km: "1.8",
   },
 ];

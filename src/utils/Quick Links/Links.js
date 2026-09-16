@@ -24,7 +24,7 @@ export const socialLinks = [
   {
     id: "linkedin",
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/sri-r-b7791a224/",
+    url: "https://www.linkedin.com/company/helixconferences.com/",
     icon: <Linkedin size={18} />,
   },
 ];
